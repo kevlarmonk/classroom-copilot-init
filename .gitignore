@@ -1,0 +1,9 @@
+# Ignore directories
+.conda/
+data/
+logs/
+
+# Ignore files
+*.json
+*.code-workspace
+*.log
