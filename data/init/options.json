@@ -1,0 +1,93 @@
+{
+    "access_options": {
+        "default_database": "localplanner"
+    },
+    "default_run_options": {
+        "init_new_and_close": "False",
+        "init_existing_and_close": "True"
+    },
+    "init_options": {
+        "clear_existing": "True",
+        "create_default_local_calendar": "False",
+        "create_default_local_planner": "False",
+        "create_default_local_curriculum": "True",
+        "create_init_constraints": "True",
+        "local_calendar_options": {
+            "local_calendar_type": "Year",
+            "local_calendar_name": "LocalCalendar",
+            "create_year_nodes": "True",
+            "create_month_nodes": "True",
+            "create_week_nodes": "True",
+            "create_date_nodes": "True",
+            "create_time_chunk_nodes": "True",
+            "time_chunk_minutes": "720",
+            "create_data_directories": "True",
+            "create_sequenced_relationships": "True",
+            "sequenced_relationships": {
+                "create_sequenced_years": "True",
+                "create_sequenced_months": "True",
+                "create_sequenced_weeks": "True",
+                "create_sequenced_dates": "True",
+                "create_sequenced_time_chunks": "True"
+            }
+        },
+        "local_planner_init_options": {
+            "local_planner_owner_type": "staff",
+            "local_planner_name": "LocalPlanner",
+            "local_planner_type": "AcademicYear",
+            "create_data_directories": "False",
+            "create_init_constraints": "True",
+            "create_academic_year": "True",
+            "create_academic_terms": "True",
+            "create_academic_term_breaks": "True",
+            "create_academic_weeks": "True",
+            "create_academic_week_holidays": "True",
+            "create_academic_dates": "True",
+            "create_academic_days": "True",
+            "create_academic_holiday_days": "True",
+            "create_academic_staff_days": "True",
+            "create_academic_off_timetable": "True",
+            "create_academic_periods": "True",
+            "create_academic_period_timetabled_lessons": "True",
+            "create_academic_period_registrations": "True",
+            "create_academic_period_breaks": "True",
+            "create_academic_period_meetings": "True",
+            "create_academic_period_tasks": "True",
+            "create_academic_time_chunks": "True",
+            "time_chunk_duration": "parent",
+            "create_sequenced_relationships": "True",
+            "sequenced_relationship_options": {
+                "create_sequenced_academic_terms_with_breaks": "True",
+                "create_sequenced_academic_terms_without_breaks": "False",
+                "create_sequenced_academic_weeks_with_breaks": "True",
+                "create_sequenced_academic_weeks_without_breaks": "False",
+                "create_sequenced_academic_dates_with_breaks": "True",
+                "create_sequenced_academic_dates_without_breaks": "False",
+                "create_sequenced_academic_periods_with_all": "True",
+                "create_sequenced_academic_periods_with_timetabled_periods": "False",
+                "create_sequenced_academic_periods_with_lessons": "False",
+                "create_sequenced_academic_time_chunks": "True"
+            }
+        },
+        "local_curriculum_init_options": {
+            "local_curriculum_owner_type": "school",
+            "local_curriculum_name": "LocalCurriculum",
+            "local_curriculum_type": "school",
+            "create_data_directories": "False",
+            "create_init_constraints": "True",
+            "create_syllabus_structure": "True",
+            "create_learning_stages": "True",
+            "create_year_groups": "True",
+            "create_subjects": "True",
+            "create_departments": "True",
+            "create_subject_levels": "True",
+            "create_subject_year_groups": "True",
+            "create_syllabuses": "True",
+            "create_schemes_of_works": "True",
+            "create_scheme_topics": "True",
+            "create_scheme_lessons": "True",
+            "create_scheme_statements": "True",
+            "create_scheme_resources": "True"
+        }
+    }
+}

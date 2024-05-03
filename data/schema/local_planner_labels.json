@@ -1,0 +1,38 @@
+{
+    "local_planner_node_labels": {
+        "local_planner_node_label": "LocalPlanner",
+        "local_academic_year_node_label": "AcademicYear",
+        "local_academic_term_node_label": "AcademicTerm",
+        "local_academic_term_break_node_label": "AcademicTermBreak",
+        "local_academic_week_node_label": "AcademicWeek",
+        "local_academic_week_holiday_node_label": "AcademicWeekHoliday",
+        "local_academic_date_node_label": "AcademicDate",
+        "local_academic_day_node_label": "AcademicDay",
+        "local_academic_holiday_day_node_label": "AcademicHolidayDay",
+        "local_academic_staff_day_node_label": "AcademicStaffDay",
+        "local_academic_off_timetable_node_label": "AcademicOffTimetable",
+        "local_academic_period_node_label": "AcademicPeriod",
+        "local_academic_period_timetabled_lesson_node_label": "AcademicPeriodTimetabledLesson",
+        "local_academic_period_registration_node_label": "AcademicPeriodRegistration",
+        "local_academic_period_break_node_label": "AcademicPeriodBreak",
+        "local_academic_period_meeting_node_label": "AcademicPeriodMeeting",
+        "local_academic_period_task_node_label": "AcademicPeriodTask",
+        "local_academic_time_chunk_node_label": "AcademicTimeChunk",
+        "contains_many_hierarchy_label": "CONTAINS",
+        "contains_set_hierarchy_label": "CONTAINS",
+        "contains_single_hierarchy_label": "HAS"
+    },
+        "local_planner_node_properties": {
+        "local_planner_node_properties": "UKCalendar"
+    },
+        "local_calendar_hierarchy_labels": {
+        "contains_many_hierarchy_label": "CONTAINS",
+        "contains_set_hierarchy_label": "CONTAINS",
+        "contains_single_hierarchy_label": "HAS",
+        "is_many_hierarchy_label": "IS_MANY",
+        "is_single_hierarchy_label": "IS"
+    },
+        "local_calendar_hierarchy_properties": {
+        "contains_many_hierarchy_properties": null
+    }
+}  

@@ -1,0 +1,40 @@
+{
+    "local_curriculum_node_labels": {
+        "local_curriculum_node_label": "LocalCurriculum",
+        "local_learning_stage_node_label": "LearningStage",
+        "local_year_group_node_label": "YearGroup",
+        "local_subject_node_label": "Subject",
+        "local_department_node_label": "Department",
+        "local_subject_level_node_label": "SubjectLevel",
+        "local_subject_year_group_node_label": "SubjectYearGroup",
+        "local_syllabus_node_label": "Syllabus",
+        "local_scheme_of_work_node_label": "SchemeOfWork",
+        "local_scheme_topic_node_label": "SchemeTopic",
+        "local_scheme_lesson_node_label": "SchemeLesson",
+        "local_scheme_statement_node_label": "SchemeLearningStatement",
+        "local_scheme_resource_node_label": "SchemeLearningResource",
+        "local_scheme_topic_review_node_label": "SchemeTopicReview",
+        "local_scheme_topic_assessment_node_label": "SchemeTopicAssessment",
+        "local_scheme_topic_feedback_node_label": "SchemeTopicFeedback",
+        "local_scheme_lesson_learning_objective_node_label": "SchemeLessonLearningObjective",
+        "local_scheme_lesson_learning_outcome_node_label": "SchemeLessonLearningOutcome",
+        "local_scheme_lesson_learning_activity_node_label": "SchemeLessonLearningActivity",
+        "local_scheme_lesson_learning_resource_node_label": "SchemeLessonLearningResource",
+        "contains_many_hierarchy_label": "CONTAINS",
+        "contains_set_hierarchy_label": "CONTAINS",
+        "contains_single_hierarchy_label": "HAS"
+    },
+        "local_curriculum_node_properties": {
+        "local_curriculum_node_properties": "UKCalendar"
+    },
+        "local_calendar_hierarchy_labels": {
+        "contains_many_hierarchy_label": "CONTAINS",
+        "contains_set_hierarchy_label": "CONTAINS",
+        "contains_single_hierarchy_label": "HAS",
+        "is_many_hierarchy_label": "IS_MANY",
+        "is_single_hierarchy_label": "IS"
+    },
+        "local_calendar_hierarchy_properties": {
+        "contains_many_hierarchy_properties": null
+    }
+}  

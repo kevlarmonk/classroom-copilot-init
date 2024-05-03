@@ -1,9 +1,10 @@
 # Ignore directories
 .conda/
-data/
+data/archive
+data/dbfs
 logs/
 
 # Ignore files
-*.json
 *.code-workspace
 *.log
+data/init/planner.xlsx

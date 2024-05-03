@@ -1,0 +1,29 @@
+{
+    "local_calendar_node_labels": {
+    "local_calendar_node_label": "UKCalendar",
+    "local_year_node_label": "Year",
+    "local_month_node_label": "Month",
+    "local_week_node_label": "Week",
+    "local_date_node_label": "Date",
+    "local_time_chunk_node_label": "TimeChunk"
+    },
+    "local_calendar_node_properties": {
+    "local_calendar_node_properties": "UKCalendar",
+    "local_year_node_properties": "Year",
+    "local_month_node_properties": "Month",
+    "local_week_node_properties": "Week",
+    "local_date_node_properties": "Date",
+    "local_time_chunk_node_properties": "TimeChunk"
+    },
+    "local_calendar_hierarchy_labels": {
+    "contains_many_hierarchy_label": "CONTAINS",
+    "contains_set_hierarchy_label": "CONTAINS"
+    },
+    "local_calendar_hierarchy_properties": {
+    "contains_many_hierarchy_properties": null,
+    "contains_set_hierarchy_properties": null,
+    "contains_single_hierarchy_properties": null,
+    "is_many_hierarchy_properties": null,
+    "is_single_hierarchy_properties": null
+    }
+}  
